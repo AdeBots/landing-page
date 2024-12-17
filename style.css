@@ -1,0 +1,31 @@
+* {
+    font-family: Roboto;
+}
+
+body{
+    margin: auto;
+}
+
+div {
+    display: flex;
+    flex: 1 1 auto;
+}
+.header{
+    justify-content: space-between;
+}
+
+
+.header .links {
+    
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+}
+.header, .hero, .footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+.footer {
+    justify-content: center;
+    margin-bottom: auto;
+}
